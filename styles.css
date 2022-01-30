@@ -173,6 +173,18 @@ header {
     align-items: center;
     margin:auto;
     margin-right: 80px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.s4-button button {
+    border: 4px #F9FAF8;
+    background-color: #007acc;
+    color: #F9FAF8;
+    height: 35px;
+    width: 65px;
 }
 
 /* The following styles are for section five. */
