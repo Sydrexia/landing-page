@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/* The following are styles for section one. */
 header {
     background-color: #1F2937;
     padding-bottom: 80px;
@@ -66,8 +67,9 @@ header {
 .main-left button {
     height: 40px;
     width: 80px;
-    background-color: blue;
+    background-color: #007acc;
     color: #F9FAF8;
+    border-radius: 10px;
 }
 
 .main-text {
@@ -79,4 +81,106 @@ header {
 .main-right {
     padding-right: 150px;
     padding-left: 350px;
+}
+
+/* The follow styles are for section 2. */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.s2-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+
+.image-row img {
+    height: 100px;
+    width: 120px;
+    border: 4px solid blue;
+    border-radius: 25px;
+}
+
+.image-row div {
+    padding: 30px;
+}
+
+/* The following are styles for section three. */
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote p {
+    margin-bottom: 5px;
+}
+
+.attribution p {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
+}
+
+/* The following styles are for section four. */
+
+.section-4 {
+    display: flex;
+    background-color: #007acc;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.s4-text {
+    flex: 1 2 0%;
+    color: #F9FAF8;
+    margin-left: 80px;
+}
+
+.s4-text h1 {
+    margin-bottom: 5px;
+}
+
+.s4-text p {
+    margin-top: 5px;
+}
+
+.s4-button {
+    align-items: center;
+    margin:auto;
+    margin-right: 80px;
+}
+
+/* The following styles are for section five. */
+
+.section-5 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
